@@ -1,0 +1,45 @@
+<section class="blk-av" id="avaliacoes">
+  <div class="wrap">
+    <div class="blk-av__cab" data-reveal>
+      <p class="blk-av__eyebrow">5,0 no Google · 130 avaliações</p>
+      <h2 class="blk-av__titulo">O que as clientes mais comentam</h2>
+      <p class="blk-av__lead">Contamos as palavras que mais se repetem nas avaliações da Stacie. O ambiente aparece logo depois da própria clínica.</p>
+    </div>
+    <div class="blk-av__corpo">
+      <ol class="blk-av__lista">
+        <li data-reveal style="--d:0ms;--w:100%"><span class="blk-av__termo">clínica</span><span class="blk-av__barra"></span><span class="blk-av__n"><span data-count="39">39</span> menções</span></li>
+        <li data-reveal style="--d:60ms;--w:44%"><span class="blk-av__termo">ambiente</span><span class="blk-av__barra"></span><span class="blk-av__n"><span data-count="17">17</span> menções</span></li>
+        <li data-reveal style="--d:120ms;--w:23%"><span class="blk-av__termo">equipe</span><span class="blk-av__barra"></span><span class="blk-av__n"><span data-count="9">9</span> menções</span></li>
+        <li data-reveal style="--d:180ms;--w:15%"><span class="blk-av__termo">região</span><span class="blk-av__barra"></span><span class="blk-av__n"><span data-count="6">6</span> menções</span></li>
+        <li data-reveal style="--d:240ms;--w:10%"><span class="blk-av__termo">massagem</span><span class="blk-av__barra"></span><span class="blk-av__n"><span data-count="4">4</span> menções</span></li>
+        <li data-reveal style="--d:300ms;--w:5%"><span class="blk-av__termo">limpeza de pele</span><span class="blk-av__barra"></span><span class="blk-av__n"><span data-count="2">2</span> menções</span></li>
+      </ol>
+      <figure class="blk-av__foto" data-reveal>
+        <!--foto:midia/letreiro.jpg|Letreiro em neon dourado com o nome Stacie sobre a parede verde da recepção-->
+        <figcaption>"Ambiente cheiroso e aconchegante, sou sempre recepcionado com um cafezinho e um doce." <span>Ricardo, no Google</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-av{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 8%,var(--bg))}
+.blk-av__cab{max-width:44rem;margin-bottom:var(--sp-5)}
+.blk-av__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-av__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-av__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-av__lista{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-av__lista li{display:grid;grid-template-columns:1fr auto;grid-template-areas:"termo n" "barra barra";gap:.45rem .75rem;align-items:baseline}
+.blk-av__termo{grid-area:termo;font-family:var(--f-display);font-size:1.5rem;color:var(--ink)}
+.blk-av__n{grid-area:n;font-size:var(--t-label);letter-spacing:.04em;color:color-mix(in srgb,var(--ink) 62%,transparent)}
+.blk-av__barra{grid-area:barra;height:6px;border-radius:99px;background:color-mix(in srgb,var(--brand) 12%,transparent);position:relative;overflow:hidden}
+.blk-av__barra::after{content:"";position:absolute;inset:0 auto 0 0;width:var(--w);min-width:6px;border-radius:inherit;background:linear-gradient(90deg,var(--brand),var(--pulse))}
+.blk-av__foto{margin:var(--sp-5) 0 0}
+.blk-av__foto img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius)}
+.blk-av__foto figcaption{margin-top:var(--sp-2);font-family:var(--f-display);font-size:1.2rem;line-height:1.4;color:var(--ink)}
+.blk-av__foto figcaption span{display:block;margin-top:.3rem;font-family:var(--f-body);font-size:var(--t-label);color:color-mix(in srgb,var(--ink) 60%,transparent)}
+@media (min-width:900px){
+  .blk-av__corpo{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:4.5rem;align-items:center}
+  .blk-av__foto{margin:0}
+}
+</style>

@@ -1,0 +1,250 @@
+{
+  "slug": "stacie-estetica",
+  "negocio": {
+    "nome": "Stacie Estética Avançada",
+    "whatsapp": "5562995708345",
+    "telefone": "(62) 99570-8345",
+    "funcionamento": {
+      "seg": "09:00-19:00",
+      "ter": "09:00-19:00",
+      "qua": "09:00-19:00",
+      "qui": "09:00-19:00",
+      "sex": "09:00-19:00",
+      "sab": "09:00-13:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Parque Oeste Industrial · Goiânia",
+        "endereco": "Praça da Bandeira, Qd. 31, Lt. 02 – Parque Oeste Industrial, Goiânia – GO, 74375-585",
+        "telefone": "(62) 99570-8345",
+        "horario": "Segunda a sexta, 9h às 19h · Sábado, 9h às 13h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#7A5530",
+    "brand2": "#4F361D",
+    "ink": "#2B2119",
+    "bg": "#FBF7F1",
+    "pulse": "#C9A063",
+    "radius": "18px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Jost",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Botox",
+            "href": "#toxina"
+          },
+          {
+            "texto": "Avaliações",
+            "href": "#avaliacoes"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Estética avançada · Goiânia",
+        "h1": "Botox, pele e massagem no Parque Oeste",
+        "lead": "Uma clínica de estética com recepção de café e doce, equipe que acompanha depois do procedimento e pacotes para quem faz tratamento contínuo.",
+        "cta": "Marcar pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/recepcao.jpg",
+        "imagemAlt": "Recepção da Stacie Estética, com parede verde, letreiro em neon dourado e balcão branco",
+        "tarja": [
+          "5,0 no Google, 130 avaliações",
+          "Acompanhamento depois do procedimento",
+          "Entrada e vaga acessíveis",
+          "Sábado das 9h às 13h"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Toxina botulínica",
+          "Limpeza de pele",
+          "Massagem",
+          "Tratamentos com aparelhos",
+          "Pacotes"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A Stacie",
+        "texto": [
+          "Quem chega à Stacie é recebido com café e um doce, numa recepção de parede verde e luz dourada.",
+          "O procedimento é feito com calma, e a equipe continua por perto depois dele. Muita gente que vem pela primeira vez, insegura, acaba voltando por causa disso."
+        ],
+        "imagem": "midia/sala.jpg",
+        "imagemAlt": "Sala de procedimentos da Stacie com macas, parede em relevo bege e aparelhos de estética"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "A indicação sai da avaliação com a profissional. Aqui está o que a Stacie faz.",
+        "itens": [
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Suaviza as linhas de expressão da testa e dos olhos. A profissional explica os pontos antes de aplicar e acompanha o resultado na revisão.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Limpeza de pele",
+            "descricao": "Higienização, extração e ativos escolhidos para o seu tipo de pele. Sai com o rosto limpo e sem marcas para a rotina.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Massagem",
+            "descricao": "Para relaxar ou para tratar o corpo, com sessões avulsas ou em pacote para quem quer manter a frequência.",
+            "icone": "spa"
+          },
+          {
+            "nome": "Tratamentos com aparelhos",
+            "descricao": "A sala de procedimentos tem aparelhos de estética facial e corporal. O protocolo é indicado na avaliação, de acordo com o objetivo.",
+            "icone": "mao"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/calendario-toxina.html"
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "Marcar leva uma conversa curta",
+        "lead": "A recepção responde no mesmo número do Google, e o horário sai ali mesmo.",
+        "cta": "Chamar a Stacie",
+        "contato": "Stacie Estética",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Nunca fiz botox e queria entender como funciona."
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! A primeira vez começa com uma avaliação: a profissional olha sua expressão e explica tudo antes de aplicar."
+          },
+          {
+            "de": "paciente",
+            "texto": "Tem horário no sábado de manhã?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Tem sim, sábado a gente atende das 9h às 13h. Prefere 9h30 ou 11h?"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/avaliacoes.html"
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem já foi",
+        "itens": [
+          {
+            "texto": "Pesquisei para fazer meu primeiro botox e estava insegura. As profissionais me passaram total segurança com o procedimento.",
+            "autor": "Patricia",
+            "contexto": "Toxina botulínica · Google"
+          },
+          {
+            "texto": "Fiz uma limpeza de pele ontem e o resultado ficou maravilhoso. Dá para notar o cuidado em cada detalhe do atendimento.",
+            "autor": "Jaine",
+            "contexto": "Limpeza de pele · Google"
+          },
+          {
+            "texto": "Os procedimentos são feitos com muita precisão e ainda fazem um pós-acompanhamento. Me sinto bem cuidado.",
+            "autor": "Ricardo",
+            "contexto": "Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Dúvidas comuns",
+        "itens": [
+          {
+            "p": "Quanto tempo dura o efeito do botox?",
+            "r": "Costuma durar de quatro a seis meses, mas muda de pessoa para pessoa. A profissional conversa sobre isso na avaliação e na revisão."
+          },
+          {
+            "p": "Nunca fiz botox. Como é a primeira vez?",
+            "r": "Começa com uma avaliação da sua expressão. A profissional mostra onde vai aplicar e tira as dúvidas antes de começar."
+          },
+          {
+            "p": "Tem pacote de sessões?",
+            "r": "Tem. A Stacie costuma abrir pacotes com valor especial para quem faz tratamento contínuo. Pergunte pelos pacotes do mês no WhatsApp."
+          },
+          {
+            "p": "Abre aos sábados?",
+            "r": "Abre, das 9h às 13h. De segunda a sexta, das 9h às 19h."
+          },
+          {
+            "p": "A clínica é acessível?",
+            "r": "É. A entrada e o estacionamento têm acesso para cadeira de rodas."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "vivo",
+      "data": {
+        "h2": "Escolha o seu horário pelo WhatsApp",
+        "lead": "Segunda a sexta das 9h às 19h, sábado até as 13h, no Parque Oeste Industrial.",
+        "cta": "Marcar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {}
+    }
+  ]
+}
